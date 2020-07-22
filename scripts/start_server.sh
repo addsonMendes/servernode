@@ -1,1 +1,1 @@
-sudo nodemon /var/www/server/server.js
+node /var/www/server/server.js
