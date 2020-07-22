@@ -1,6 +1,13 @@
-var http = require('http');
+var express = require("express");
+const bodyparser = require("body-parser");
 
-//create a server object:
-http.createServer(function (req, res) {
-  res.end('Servidor iniciado...'); //end the response
-}).listen(56000); //the server object listens on port 8080
+const app = express();
+app.use(bodyparser.json());
+
+app.get('/', (req, res) => {
+    res.json({"message":"Server Iniciado"});
+});
+
+var server = app.listen(56000, "localhost", function(){
+    console.log('Escutando 56000');
+});
