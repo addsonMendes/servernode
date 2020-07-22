@@ -1,0 +1,20 @@
+{
+  "name": "servernode",
+  "version": "1.0.0",
+  "description": "Initial project server node with AWS code deploy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/addsonMendes/servernode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/addsonMendes/servernode/issues"
+  },
+  "homepage": "https://github.com/addsonMendes/servernode#readme"
+}
