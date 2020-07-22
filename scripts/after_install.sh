@@ -1,4 +1,4 @@
 source /home/ec2-user/.bash_profile
 
-cd /usr/cddemo
+cd /usr/servernode
 npm install
