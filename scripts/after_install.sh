@@ -1,4 +1,2 @@
-source /home/ec2-user/.bash_profile
-
-cd /usr/servernode
+cd /var/www/app
 npm install

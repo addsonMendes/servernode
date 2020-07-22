@@ -1,1 +1,1 @@
-node /usr/servernode/server.js
+node /var/www/app/server.js

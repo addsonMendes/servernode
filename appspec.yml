@@ -2,10 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /usr/servernode
+    destination: /var/www/app
     overwrite: true
 permissions:
-  - object: /usr/servernode/scripts
+  - object: /var/www/app/scripts
     pattern: "*.sh"
     owner: ubuntu
     group: ubuntu
