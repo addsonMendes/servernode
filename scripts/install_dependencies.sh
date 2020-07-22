@@ -1,3 +1,5 @@
+export NVM_DIR="/home/ec2-user/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
 yum -y update
 
 curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
