@@ -1,3 +1,3 @@
-cd /
+#!/bin/bash
 cd /var/www/app/
-node server.js
+sudo -H -u ec2-user bash -c 'npm start'
