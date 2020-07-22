@@ -1,6 +1,5 @@
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-. ~/.nvm/nvm.sh
-nvm install node
-npm i -g nodemon
-npm i -g express
-npm i -g body-parser
+yum -y update
+
+curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+yum -y install nodejs
+npm install -g nodemon
