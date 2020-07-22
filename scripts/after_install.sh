@@ -1,2 +1,2 @@
-cd /var/www/server
+cd /usr/cddemo
 npm install

@@ -1,1 +1,1 @@
-node /var/www/server/server.js
+pm2 start /usr/cddemo -n server -f
