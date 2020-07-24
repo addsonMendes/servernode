@@ -8,7 +8,8 @@ sudo apt-get install npm -y
 sudo npm install forever -g
 
 #install pm2
-sudo npm install pm2 -g
+sudo npm install -g pm2
+pm2 update
 
 #create app folder
 sudo mkdir -p /var/www/app
