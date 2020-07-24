@@ -8,7 +8,7 @@ sudo apt-get install npm -y
 
 #install pm2
 sudo npm install pm2 -g
-sudo pm2 update
+# sudo pm2 update
 
 #install forever
 # sudo npm install forever -g
