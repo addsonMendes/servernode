@@ -4,12 +4,13 @@ curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -
 sudo apt-get install nodejs -y
 sudo apt-get install npm -y
 
-#install forever
-sudo npm install forever -g
-
 #install pm2
-sudo npm install -g pm2
-pm2 update
+sudo npm install pm2 -g
+sudo pm2 update
+
+#install forever
+# sudo npm install forever -g
+
 
 #create app folder
 sudo mkdir -p /var/www/app
