@@ -5,9 +5,9 @@ const app = express();
 app.use(bodyparser.json());
 
 app.get('/', (req, res) => {
-    res.json("Server Iniciado");
+    res.json({"status":"Server Iniciado"});
 });
 
-var server = app.listen(3333, function(){
-    console.log('Escutando 3333');
+var server = app.listen(4000, function(){
+    console.log('Escutando 4000');
 });
