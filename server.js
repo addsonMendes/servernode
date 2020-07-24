@@ -5,7 +5,7 @@ const app = express();
 app.use(bodyparser.json());
 
 app.get('/', (req, res) => {
-    res.json({"message":"Server Iniciado"});
+    res.json("Server Iniciado");
 });
 
 var server = app.listen(3333, function(){
