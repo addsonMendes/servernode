@@ -1,11 +1,11 @@
 #install node
 sudo apt-get install curl -y
 # curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -
-sudo apt install aptitude
+sudo apt-get install aptitude
 sudo aptitude install npm
 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install nodejs -y
+sudo apt-get install node -y
 # sudo apt-get install -y build-essential
 sudo apt-get install npm -y
 
